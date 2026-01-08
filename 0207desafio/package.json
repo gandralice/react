@@ -1,0 +1,18 @@
+{
+  "name": "0207desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild --bundle main.jsx --outfile=main.js --servedir=./ --watch",
+    "build": "esbuild --bundle main.jsx --outfile=main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "esbuild": "^0.27.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}
